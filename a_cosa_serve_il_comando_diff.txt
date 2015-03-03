@@ -1,0 +1,11 @@
+Il comando "diff" riceve in input due file e li confronta riga per riga in modo da evidenziare le differenze che vi sono tra i due.
+Il comando, nel caso in cui i due file siano identici non restituirà alcun output e il suo codice di uscita sarà zero, mentre nel caso in cui i due file siano diversi tale comando indica quali righe devono essere modificate, eliminate o aggiunte al primo file in modo che esso risulti identico al secondo.
+
+Nel caso in cui due file siano uguali il codice di uscita di questo comando sarà 0, mentre se i due file saranno diversi il codice di uscita sarà 1.
+
+Il comando diff opera unicamente su file di tipo testuale. La soluzione per verificare se gli script creati producono gli stessi risultati dei programmi C è quella di redirezionare l'output degli script e dei programmi in C (a parità di input) in due file diversi (.txt ad esempio) e, successivamente, confrontare i due file tramite il comando diff.
+
+Se esso restituirà un exit code uguale a 0, i due file saranno uguali e, di conseguenza, gli script e i programmi C produrranno esattamente gli stessi risultati a parità di input.
+
+
+
